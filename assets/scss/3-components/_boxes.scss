@@ -1,0 +1,73 @@
+/*--------------*\
+    Boxes Section
+\*--------------*/
+.card{
+    padding: 7px;
+    border-radius: 20px;
+    border: 1.258px solid #CBCBCB;
+    width: 100% !important;
+    box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.12);
+    img{
+        border-radius: 20px;
+    }
+    .card-body{
+        padding: 15px 10px;
+        .card_details{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            margin-bottom: 10px;
+            .card_rating{
+                display: flex;
+                justify-content: flex-end;
+                .rating_start{
+                    margin-right: 10px;
+                    margin-bottom: 0px;
+                    i{
+                        color: #F8C542;
+                    }
+                }
+            }
+        }
+    }
+}
+.white_box{
+    padding: 30px;
+    text-align: center ;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.09);
+    span{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #0A253A;
+        padding: 10px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        i{
+            color: white;
+            font-size: 34px;
+        }
+    }
+    h3{
+        color: #2D2D2D;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    p{
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.section_our_work{
+    background-image: url('/assets/images/our-work.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

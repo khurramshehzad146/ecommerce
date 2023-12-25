@@ -1,0 +1,65 @@
+/*--------------*\
+    Home Page
+\*--------------*/
+.tax_service{
+    background-color: #0A253A;
+}
+
+
+
+
+.section_tax_preparation{
+    background-image: url('/assets/images/preparation_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_blogs{
+    .card{
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        background: #FFF;
+        .card_top{
+            position: relative;
+            .blog_info{
+                position: absolute;
+                bottom: 15px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 0 15px;
+                .blog_cat{
+                    h5{
+                        color: #F8C542;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+                .blog_date{
+                    h5{
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .card-body{
+            padding-bottom: 20px;
+            .card-title{
+                color: #000;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 25.1px;
+                margin-top: 20px;
+            }
+            .card-text{
+                color: #000;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 21.1px;
+                margin-bottom: 20px;
+
+            }
+        }
+    }
+}

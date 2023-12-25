@@ -1,0 +1,21 @@
+.faq_main{
+button{
+ 
+    background: rgba(10, 37, 58, 0.03);
+    color: #5E5E5E !important;
+    font-size: 18px;
+    font-weight: 500;
+    &:after{
+        color: #0A253A !important;
+    }
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+  }
+  .accordion-item{
+    border: 1px solid #D1D1D1;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+}

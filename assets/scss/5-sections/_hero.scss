@@ -1,0 +1,91 @@
+/*--------------*\
+    Hero Section
+\*--------------*/
+.section_hero{
+    .hero_carousel_box{
+        position: relative;
+        .hero_details{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 604px;
+            height: 100%;
+            background-color:   rgba(10, 37, 58, 0.66);
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            @include grid-md-down {
+                position: unset;
+                width: auto;
+                // background-color: white;
+                padding: 15px;
+                }
+            p{
+                color: #FFF;
+                font-size: 18px;
+                margin: 20px 0;
+                @include grid-md-down {
+                color: rgba(0, 0, 0, 0.50);
+                }
+            }
+            a{
+                width: fit-content;
+            }
+        }
+    }
+    .heading{
+        h5{
+            background-color: rgba(0, 0, 0, 0.50);
+            padding: 5px 38px;
+            border-radius: 40px;
+            width: fit-content;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+    }
+    .owl-nav{
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+        .disabled{
+            color: white !important;
+        }
+        @include grid-md-down {
+            position: unset;
+            }
+    }
+}
+.section_component{
+    background-image: url('/assets/images/componet_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .component_box{
+        padding: 80px 40px;
+        height: 100%;
+        background-color: rgba(10, 37, 58, 0.66);
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        @include grid-md-down {
+            padding: 30px 40px;
+        }
+        .bread_crum{
+            display: flex;
+            list-style: none;
+            padding-left: 0;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+                +li{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
